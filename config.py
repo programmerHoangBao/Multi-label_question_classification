@@ -68,7 +68,7 @@ class Config:
     NUM_TAGS = len(TAGS)
     
     # Model
-    MODEL_PATH = "./codebert-base"
+    MODEL_PATH = "microsoft/codebert-base"
     CODEBERT_HIDDEN_SIZE = 768
     LSTM_HIDDEN_SIZE = 512
     NUM_ATTENTION_HEADS = 16
